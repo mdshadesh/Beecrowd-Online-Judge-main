@@ -1,6 +1,3 @@
-//  Read 100 integer numbers. Print the highest read value and the input position.
-
-
 
 #include <iostream>
 
