@@ -1,0 +1,16 @@
+while True:
+    try:
+        num_questions = int(input())
+        answers = []
+
+        # Read the answers for the current test case
+        for _ in range(num_questions):
+            answer = int(input())
+            answers.append(answer)
+
+        # Output the answers in the required format
+        for i, answer in enumerate(answers, 1):
+            print("resposta {}: {}".format(i, answer))
+
+    except EOFError:
+        break
